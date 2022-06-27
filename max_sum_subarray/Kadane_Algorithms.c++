@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-  int ar[]={1,2,-5,,4,3,-2,0,8,4,9};
+  int ar[]={1,2,-5,4,3,-2,0,8,4,9};
   int n=sizeof(ar)/sizeof(ar[0]);
   int currsum=0;
   int maxsum=INT_MIN;
